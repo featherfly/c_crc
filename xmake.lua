@@ -1,4 +1,4 @@
-set_project("c_commons")
+set_project("c_crc")
 
 -- set xmake minimum version
 set_xmakever("2.6.1")
@@ -9,9 +9,9 @@ set_languages(stdc)
 
 add_rules("mode.debug", "mode.release")
 
-target("c_commons")
+target("c_crc")
     -- make as a static/shared library
-    set_kind("$(kind)")
+    set_kind("static")
 
     add_includedirs("include")
     add_files("src/*.c")

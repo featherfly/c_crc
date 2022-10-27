@@ -1,0 +1,26 @@
+{
+	"name": "c_crc",
+	"keywords": "c crc",
+	"description": "crc algorithm",
+	"version": "1.0.0",
+	"authors": {
+		"name": "zhongj",
+		"url": "https://github.com/featherfly",
+		"maintainer": true
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/featherfly/c_crcs.git"
+	},
+	"homepage": "https://github.com/featherfly/c_crcs/",
+	"frameworks": [
+		"*"
+	],
+	"platforms": "*",
+	"examples": "examples/*/*.c",
+	"build": {
+		"srcDir": "src"
+	},
+	"dependencies": [
+	]
+}
